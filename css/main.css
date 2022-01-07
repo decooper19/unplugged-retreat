@@ -524,12 +524,16 @@ textarea {
   /*-- Header --*/
   header {
     justify-content: space-around;
-    padding: 33px;
+    padding: 33px 0;
   }
 
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
+  }
+
+  header figure {
+    width: 30%;
   }
 
   header nav {
@@ -566,7 +570,7 @@ textarea {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 40%;
+    width: 35%;
     margin: 0;
   }
 
@@ -585,7 +589,7 @@ textarea {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 62%;
   }
   
   /*-- Reviews --*/
@@ -651,6 +655,10 @@ textarea {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -659,6 +667,10 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+  }
+
+  .contact-content h4 {
+    font-size: 1.5em;
   }
 
   /*---- FAQ Page ----*/
@@ -720,9 +732,12 @@ textarea {
 
    aside .content-wrapper .form-description,
    aside .content-wrapper .form {
-      width 30%:
+      width 40%:
     }
- 
+
+    form-description p {
+      font-size: 1.125em;
+    }
     /* Features */
     .features h2 {
       width 90%: 
@@ -733,12 +748,12 @@ textarea {
     }
  
     /* Reviews */ 
-    .reviews article div {
-      width: 42%;
-    }
-
     .reviews h2 {
       padding-bottom: 50px;
+    }
+
+    .reviews article div {
+      width: 42%;
     }
 
     footer h4 {
@@ -749,6 +764,10 @@ textarea {
 /* ==========================================================================
    About Page
    ========================================================================== */
+    .map figure {
+      padding-bottom: 37.5%;
+    }
+
     .mission h2,
     .contact-section .content-wrapper h2 {
       width: 95%: 
